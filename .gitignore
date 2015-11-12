@@ -1,0 +1,8 @@
+# IntelliJ
+.idea
+*.iml
+
+# Meteor
+.meteor
+
+.DS_Store

@@ -1,0 +1,28 @@
+<head>
+  <title>My Bing</title>
+</head>
+
+<body>
+  <h1>Bing demo</h1>
+  
+  <form>
+    <input class="search-bar" type="text" name="queryPhrase" placeholder="type a query">
+    <input class="submit" type="submit" value="Search" id="searchButton">
+  </form>
+
+  <div>
+    {{#if allResults}}
+      {{#each allResults}}
+        <div class="result">
+          <p>
+            <span class="title"><a href={{Url}}>{{Title}}</a></span> <br>
+            <span class="display-url">{{DisplayUrl}}</span> <br>
+            <span class="description">{{Description}}</span>
+          </p>
+        </div>
+      {{/each}}
+    {{/if}}
+  </div>
+
+</body>
+

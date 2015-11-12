@@ -1,0 +1,36 @@
+/* CSS declarations go here */
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.result {
+  height: 80px;
+  display: inline-block; 
+  width: 600px; 
+  margin-left: 2cm
+}
+
+.title {
+  color: #0000ff;
+  font-size: 16px;
+}
+
+.display-url {
+  color: #26a080;
+}
+
+.description {
+  
+}
+
+.search-bar {
+  width: 400px;
+  height: 20px;
+  margin-left: 2cm;
+}
+
+.submit {
+  width: 80px;  
+  margin-left: 2cm;
+}
